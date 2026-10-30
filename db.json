@@ -1,0 +1,96 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Trådlösa hörlurar",
+      "price": 799,
+      "category": "Elektronik",
+      "description": "Trådlösa hörlurar med hög ljudkvalitet.",
+      "stock": 9
+    },
+    {
+      "id": "2",
+      "name": "Mekaniskt tangentbord",
+      "price": 1099,
+      "category": "Elektronik",
+      "description": "Mekaniskt tangentbord.",
+      "stock": 9
+    },
+    {
+      "id": "3",
+      "name": "Ryggsäck",
+      "price": 499,
+      "category": "Accessoarer",
+      "description": "En praktisk ryggsäck.",
+      "stock": 10
+    },
+    {
+      "id": "4",
+      "name": "Smartklocka",
+      "price": 1499,
+      "category": "Elektronik",
+      "description": "En smartklocka.",
+      "stock": 10
+    }
+  ],
+  "rates": {
+    "SEK": 1,
+    "EUR": 0.09,
+    "USD": 0.1
+  },
+  "orders": [
+    {
+      "email": "yep@gmail.com",
+      "products": [
+        {
+          "id": "1",
+          "name": "Trådlösa hörlurar",
+          "price": 799,
+          "category": "Elektronik",
+          "description": "Trådlösa hörlurar med hög ljudkvalitet."
+        }
+      ],
+      "total": 848,
+      "date": "2026-10-30T05:30:23.635Z",
+      "status": "Mottagen",
+      "id": "GPjBy01LOjI"
+    },
+    {
+      "email": "yep@gmail.com",
+      "products": [
+        {
+          "id": "1",
+          "name": "Trådlösa hörlurar",
+          "price": 799,
+          "category": "Elektronik",
+          "description": "Trådlösa hörlurar med hög ljudkvalitet.",
+          "stock": 10,
+          "quantity": 1
+        }
+      ],
+      "total": 848,
+      "date": "2026-10-30T05:39:49.479Z",
+      "status": "Mottagen",
+      "id": "8t6DyGWsn_A"
+    },
+    {
+      "email": "yep@gmail.com",
+      "products": [
+        {
+          "id": "2",
+          "name": "Mekaniskt tangentbord",
+          "price": 1099,
+          "category": "Elektronik",
+          "description": "Mekaniskt tangentbord.",
+          "stock": 10,
+          "quantity": 1
+        }
+      ],
+      "total": 1198,
+      "date": "2026-10-30T07:32:52.064Z",
+      "status": "Mottagen",
+      "id": "zU3F-MC6KlM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
